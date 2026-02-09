@@ -1,4 +1,4 @@
-# Kevinswiber Mmdflux
+# mmdflux Homebrew Tap
 
 ## How do I install these formulae?
 
