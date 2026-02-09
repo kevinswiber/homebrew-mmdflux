@@ -1,5 +1,7 @@
 # mmdflux Homebrew Tap
 
+Upstream project: [kevinswiber/mmdflux](https://github.com/kevinswiber/mmdflux)
+
 ## How do I install these formulae?
 
 `brew install kevinswiber/mmdflux/<formula>`
