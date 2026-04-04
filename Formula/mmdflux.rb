@@ -1,21 +1,21 @@
 class Mmdflux < Formula
   desc "Render Mermaid diagrams as Unicode text, ASCII, SVG, and MMDS JSON"
   homepage "https://github.com/kevinswiber/mmdflux"
-  version "2.0.2"
+  version "2.1.0"
   license "MIT"
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/kevinswiber/mmdflux/releases/download/mmdflux-v2.0.2/mmdflux-v2.0.2-darwin-arm64.tar.gz"
-      sha256 "77026b80817e49954ea0fa1728f5ea57d3659c7d04c6ba2fbffe26abd96dd2b9"
+      url "https://github.com/kevinswiber/mmdflux/releases/download/mmdflux-v2.1.0/mmdflux-v2.1.0-darwin-arm64.tar.gz"
+      sha256 "36d65ce6c5a5fb5490cfa8143e84ab4c7cd1374939c81a3e126ac289671a1477"
     else
-      url "https://github.com/kevinswiber/mmdflux/releases/download/mmdflux-v2.0.2/mmdflux-v2.0.2-darwin-x86_64.tar.gz"
-      sha256 "f1bef876dfc4ad65c09af07bfe2797e0b7a93f363566e3f7b05a858ce7814b9d"
+      url "https://github.com/kevinswiber/mmdflux/releases/download/mmdflux-v2.1.0/mmdflux-v2.1.0-darwin-x86_64.tar.gz"
+      sha256 "224bb760249880f4f2709faca2ce61ba80bed45cf2af0f741676df17b7b74a06"
     end
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/kevinswiber/mmdflux/releases/download/mmdflux-v2.0.2/mmdflux-v2.0.2-linux-x86_64.tar.gz"
-      sha256 "aacb976e08f31a5e94bacd364ea60a474364d9e991603b7459ec94de04dd8ef0"
+      url "https://github.com/kevinswiber/mmdflux/releases/download/mmdflux-v2.1.0/mmdflux-v2.1.0-linux-x86_64.tar.gz"
+      sha256 "564bdc2ec60833f8eddd021275bf9a5fcd61db03c9fb81fa608cd4ac9c5a973a"
     else
       odie "Linux ARM64 binaries are not published yet."
     end
